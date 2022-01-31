@@ -1,0 +1,1548 @@
+2020-08-19 05:53:10,903 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2020-08-19 05:53:19,045 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.3.Final
+2020-08-19 05:53:19,185 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2020-08-19 05:53:20,797 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) starting
+2020-08-19 05:53:20,829 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_261\jre
+	java.io.tmpdir = C:\Users\matto\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Roslyn;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\matto\AppData\Local\Microsoft\WindowsApps;C:\Users\matto\AppData\Roaming\npm;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_261-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_261
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.261-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final
+	jboss.host.name = laptop-rgjnpje3
+	jboss.modules.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-rgjnpje3
+	jboss.qualified.host.name = laptop-rgjnpje3
+	jboss.server.base.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\log
+	jboss.server.name = laptop-rgjnpje3
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\modules
+	org.jboss.boot.log.file = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_261\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\jboss-modules.jar -mp C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\bin
+	user.home = C:\Users\matto
+	user.language = pt
+	user.name = matto
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2020-08-19 05:53:20,837 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\configuration/logging.properties 
+2020-08-19 05:53:38,701 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.6.0.Final
+2020-08-19 05:53:45,875 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-08-19 05:53:46,067 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-08-19 05:53:46,461 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-08-19 05:53:46,693 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+2020-08-19 05:53:46,733 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+2020-08-19 05:53:46,909 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2020-08-19 05:53:46,941 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 48) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-08-19 05:53:46,941 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 57) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-08-19 05:53:46,869 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-08-19 05:53:46,976 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 59) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-08-19 05:53:46,992 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 58) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-08-19 05:53:46,992 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2020-08-19 05:53:47,000 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2020-08-19 05:53:47,024 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 55) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-08-19 05:53:47,056 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2020-08-19 05:53:47,094 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final)
+2020-08-19 05:53:47,171 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2020-08-19 05:53:48,454 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.13.Final starting
+2020-08-19 05:53:49,768 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 50) WFLYRS0016: RESTEasy version 3.6.1.Final
+2020-08-19 05:53:49,960 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-08-19 05:53:50,553 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2020-08-19 05:53:50,561 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/WebApp]
+2020-08-19 05:53:50,561 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-08-19 05:53:51,017 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2020-08-19 05:53:51,017 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-08-19 05:53:51,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path 'C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-08-19 05:53:52,570 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 49) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2020-08-19 05:53:52,904 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2020-08-19 05:53:52,904 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2020-08-19 05:53:53,741 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+2020-08-19 05:53:53,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2020-08-19 05:53:53,805 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2020-08-19 05:53:54,657 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-08-19 05:53:56,203 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2020-08-19 05:53:56,779 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/WebApp]
+2020-08-19 05:53:56,779 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-08-19 05:53:58,882 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2020-08-19 05:53:59,118 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-08-19 05:53:59,150 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\matto\Desktop\Treinamento Homologacao\wildfly-14.0.1.Final\wildfly-14.0.1.Final\standalone\deployments
+2020-08-19 05:53:59,198 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "webapp-0.0.1-SNAPSHOT.ear" (runtime-name: "webapp-0.0.1-SNAPSHOT.ear")
+2020-08-19 05:53:59,206 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "webfakeapp.war" (runtime-name: "webfakeapp.war")
+2020-08-19 05:53:59,206 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "mysql-connector-java-8.0.17.jar" (runtime-name: "mysql-connector-java-8.0.17.jar")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-vo-0.0.1-SNAPSHOT.jar")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-util-0.0.1-SNAPSHOT.jar")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dao-0.0.1-SNAPSHOT.jar")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dto-0.0.1-SNAPSHOT.jar")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-webapp-0.0.1-SNAPSHOT.war")
+2020-08-19 05:54:02,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-ejb-0.0.1-SNAPSHOT.jar")
+2020-08-19 05:54:02,976 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-08-19 05:54:04,171 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.3.Final (Apache CXF 3.2.5.jbossorg-1) 
+2020-08-19 05:54:05,707 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for WebAppPU
+2020-08-19 05:54:07,025 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webapp-0.0.1-SNAPSHOT.ear
+2020-08-19 05:54:07,047 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2020-08-19 05:54:07,194 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-8.0.17.jar
+2020-08-19 05:54:07,857 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment webfakeapp.war
+2020-08-19 05:54:09,446 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 6.0.13.Final
+2020-08-19 05:54:11,029 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment webapp-util-0.0.1-SNAPSHOT.jar
+2020-08-19 05:54:11,029 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp-vo-0.0.1-SNAPSHOT.jar
+2020-08-19 05:54:11,029 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp-dao-0.0.1-SNAPSHOT.jar
+2020-08-19 05:54:11,037 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment webapp-dto-0.0.1-SNAPSHOT.jar
+2020-08-19 05:54:11,109 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.1.Final
+2020-08-19 05:54:11,157 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webapp-webapp-0.0.1-SNAPSHOT.war
+2020-08-19 05:54:11,253 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp-ejb-0.0.1-SNAPSHOT.jar
+2020-08-19 05:54:11,277 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ConsultarMeusDadosEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb
+
+2020-08-19 05:54:11,285 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'AltAnotacaoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:module/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:module/AltAnotacaoEjb
+
+2020-08-19 05:54:11,285 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'LogonEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:module/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:module/LogonEjb
+
+2020-08-19 05:54:11,285 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ExecutarPingEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:module/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:module/ExecutarPingEjb
+
+2020-08-19 05:54:11,285 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'AltEnderecoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:module/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:module/AltEnderecoEjb
+
+2020-08-19 05:54:11,285 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'DeserializarEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:module/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:module/DeserializarEjb
+
+2020-08-19 05:54:11,378 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2020-08-19 05:54:12,225 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 74) HHH000204: Processing PersistenceUnitInfo [
+	name: WebAppPU
+	...]
+2020-08-19 05:54:12,298 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 3.0.5 (Final)
+2020-08-19 05:54:12,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0002: Started client-mappings cache from ejb container
+2020-08-19 05:54:15,332 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 74) HHH000412: Hibernate Core {5.3.6.Final}
+2020-08-19 05:54:15,340 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 74) HHH000206: hibernate.properties not found
+2020-08-19 05:54:18,820 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 82) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2020-08-19 05:54:19,108 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 74) HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-19 05:54:19,395 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 82) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webfakeapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=LAPTOP-RGJNPJE3, jaeger.version=Java-0.30.6, ip=192.168.0.8}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2020-08-19 05:54:19,755 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/webfakeapp' for server 'default-server'
+2020-08-19 05:54:20,419 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2020-08-19 05:54:22,879 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 74) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-19 05:54:23,167 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 74) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-08-19 05:54:23,471 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 74) Envers integration enabled? : true
+2020-08-19 05:54:28,952 INFO  [stdout] (ServerService Thread Pool -- 74) Hibernate: drop table usuario if exists
+2020-08-19 05:54:29,008 INFO  [stdout] (ServerService Thread Pool -- 74) Hibernate: create table usuario (id bigint generated by default as identity, anotacao varchar(200), email varchar(50) not null, endereco varchar(200), login varchar(30) not null, nome varchar(80) not null, senha varchar(64) not null, primary key (id))
+2020-08-19 05:54:29,040 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 74) HHH000476: Executing import script 'ScriptSourceInputFromUrl(vfs:/C:/Users/matto/Desktop/Treinamento%20Homologacao/wildfly-14.0.1.Final/wildfly-14.0.1.Final/bin/content/webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar/META-INF/import.sql)'
+2020-08-19 05:54:29,137 INFO  [stdout] (ServerService Thread Pool -- 74) Hibernate: INSERT INTO usuario (login, senha, nome, email, endereco) VALUES ('tiago', '14f8f4bb8c0e79a02670a5fea5682da717a5b3d3dc7b1706f7a4bab9afae18c2', 'Tiago Carvalho', 'tiago.carvalho@sicoob.com.br', 'Quadra 01, conjunto A, casa 12')
+2020-08-19 05:54:29,145 INFO  [stdout] (ServerService Thread Pool -- 74) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('raphael', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Raphael Mattos', 'raphael.mattos@sicoob.com.br')
+2020-08-19 05:54:29,145 INFO  [stdout] (ServerService Thread Pool -- 74) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('luan', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Luan Amor', 'luan.ritiery@sicoob.com.br')
+2020-08-19 05:54:29,546 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 101) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2020-08-19 05:54:29,554 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 101) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webapp-0.0.1-SNAPSHOT.ear!webapp-webapp-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=LAPTOP-RGJNPJE3, jaeger.version=Java-0.30.6, ip=192.168.0.8}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2020-08-19 05:54:29,554 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2020-08-19 05:54:29,610 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-0.0.1-SNAPSHOT.ear" (runtime-name : "webapp-0.0.1-SNAPSHOT.ear")
+2020-08-19 05:54:29,610 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webfakeapp.war" (runtime-name : "webfakeapp.war")
+2020-08-19 05:54:29,610 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-8.0.17.jar" (runtime-name : "mysql-connector-java-8.0.17.jar")
+2020-08-19 05:54:29,746 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-08-19 05:54:29,762 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-08-19 05:54:29,762 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-08-19 05:54:29,770 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) started in 89859ms - Started 1513 of 1693 services (353 services are lazy, passive or on-demand)
+2020-08-19 05:55:00,609 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-08-19 05:55:01,354 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 05:55:09,164 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:16,509 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:21,401 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:35,289 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:35,374 INFO  [stdout] (default task-1) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 05:55:50,497 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:55,524 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:55:59,358 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:56:04,389 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:56:24,241 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 05:56:24,249 INFO  [stdout] (default task-1) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 05:56:28,225 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:21:49,656 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 06:21:57,453 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 06:22:56,732 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 06:23:24,773 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-1) line 1:126: unexpected token: 9d
+2020-08-19 06:23:24,774 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-1) line 1:126: unexpected token: 9d: line 1:126: unexpected token: 9d
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:693)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2697)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2653)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2522)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2438)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2403)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2116)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1894)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:498)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:754)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-19 06:23:24,881 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: EJB Invocation failed on component LogonEjb for method public br.com.sicoob.gss.treinamento.seguranca.webapp.dto.UsuarioDTO br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(java.lang.String,java.lang.String): javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 06:23:24,890 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /webapp/logonVulneravel: javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting 'd', found '7' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael'--'  and u.senha = '9d836298b755370718ceacc8013d705c213d3845e562bbe2c8a926905cf74885' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 06:25:42,169 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='raphael' or 1='1' and usuariovo0_.senha='699788085ffb6d06c60ce651ac8b40d718d739f668959546cf0fb3d5b4b31dc2'
+2020-08-19 06:28:06,195 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 06:31:30,590 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:31:35,211 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:32:37,158 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:32:47,780 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:32:55,724 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:01,125 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:09,119 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:18,580 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:23,354 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:25,178 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 06:33:30,056 INFO  [stdout] (default task-1) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 08:53:13,903 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:04:16,964 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:04:52,718 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:05:29,771 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='raphael' and usuariovo0_.senha='a5e7a6aa8853e70bd66b934f697eb0ef75c9276b1cf8870fc6aec8007f2d5505'
+2020-08-19 10:06:12,283 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='raphael' or 1='1' and usuariovo0_.senha='3c15285c04fff40024bb8714b93e58178bf8d3bebe6943178e1c5412957b7aa1'
+2020-08-19 10:06:32,591 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-10) line 1:120: unexpected token: 238091e5
+2020-08-19 10:06:32,592 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-10) line 1:120: unexpected token: 238091e5: line 1:120: unexpected token: 238091e5
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:693)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2697)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2653)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2522)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2438)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2403)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2116)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1894)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:498)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:754)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-19 10:06:32,599 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-10) line 1:128: unexpected token: c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4
+2020-08-19 10:06:32,600 ERROR [org.hibernate.hql.internal.ast.ErrorTracker] (default task-10) line 1:128: unexpected token: c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4: line 1:128: unexpected token: c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:787)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-19 10:06:32,613 ERROR [org.jboss.as.ejb3.invocation] (default task-10) WFLYEJB0034: EJB Invocation failed on component LogonEjb for method public br.com.sicoob.gss.treinamento.seguranca.webapp.dto.UsuarioDTO br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(java.lang.String,java.lang.String): javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 10:06:32,619 ERROR [io.undertow.request] (default task-10) UT005023: Exception handling request to /webapp/logonVulneravel: javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting ''', found '<EOF>' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = '' --'  and u.senha = '238091e5c95ef5993f509140fc0d79b53b11841339e07b1664dabe814e1419e4' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 10:07:56,235 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='raphael' or 1='1' and usuariovo0_.senha='5cd7be8bfdb3fc5ad1c4b96e3af7e603ffc050046de1e2f05448972637f2cfc6'
+2020-08-19 10:13:25,157 INFO  [stdout] (default task-10) FileName: teste.jsp
+2020-08-19 10:14:57,993 INFO  [stdout] (default task-8) FileName: Text_Treinamento_Teste.pdf
+2020-08-19 10:15:04,168 INFO  [stdout] (default task-8) FileName: Text_Treinamento_Teste.docx
+2020-08-19 10:15:09,812 INFO  [stdout] (default task-10) FileName: teste.jsp
+2020-08-19 10:22:07,057 INFO  [stdout] (default task-10) FileName: teste.jsp
+2020-08-19 10:27:42,888 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:28:09,597 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:28:21,117 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:28:26,561 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:28:36,048 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:28:45,366 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:28:57,967 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:29:03,218 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:29:25,684 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:29:54,686 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:33:27,336 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:33:31,005 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:35:19,396 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:35:30,830 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:35:31,108 INFO  [stdout] (default task-10) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 10:36:50,164 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:36:58,827 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:37:05,207 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:37:21,579 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:37:21,587 INFO  [stdout] (default task-8) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 10:37:47,341 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:38:29,561 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 10:43:51,251 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:45:49,021 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=?
+2020-08-19 10:46:33,703 INFO  [stdout] (default task-10) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:46:54,607 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 10:47:23,700 INFO  [stdout] (default task-11) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=?
+2020-08-19 11:26:23,290 INFO  [stdout] (default task-15) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=?
+2020-08-19 11:28:49,421 INFO  [stdout] (default task-13) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 11:29:53,778 INFO  [stdout] (default task-13) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 11:31:43,543 ERROR [org.jboss.as.ejb3.invocation] (default task-17) WFLYEJB0034: EJB Invocation failed on component LogonEjb for method public br.com.sicoob.gss.treinamento.seguranca.webapp.dto.UsuarioDTO br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(java.lang.String,java.lang.String): javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 11:31:43,556 ERROR [io.undertow.request] (default task-17) UT005023: Exception handling request to /webapp/logonVulneravel: javax.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:246)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:619)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb$$$view3.efetuarLogonVulneravel(Unknown Source)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.servlet.LogonVulneravelServlet.doPost(LogonVulneravelServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.webapp.filter.LoginFilter.doFilter(LoginFilter.java:50)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:713)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:133)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.dao.UsuarioDao.efetuarLogonVulneravel(UsuarioDao.java:13)
+	at br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb.efetuarLogonVulneravel(LogonEjb.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 85 more
+Caused by: org.hibernate.QueryException: expecting 'd', found 'f' [ select u from br.com.sicoob.gss.treinamento.seguranca.webapp.vo.UsuarioVO u 	where u.login = 'raphael '--'  and u.senha = '635192bfbf9dc7314ab368f8f46cdda48b3e66e23300327591156391c6cb2295' ]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:235)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:595)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:704)
+	... 117 more
+
+2020-08-19 11:39:08,026 INFO  [stdout] (default task-17) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2020-08-19 11:39:21,803 INFO  [stdout] (default task-17) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:39:49,770 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:39:49,788 INFO  [stdout] (default task-19) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 11:40:00,715 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:41:28,100 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:41:28,106 INFO  [stdout] (default task-19) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 11:42:01,713 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:42:12,963 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:42:12,967 INFO  [stdout] (default task-19) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 11:44:13,896 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:44:13,912 INFO  [stdout] (default task-19) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2020-08-19 11:44:35,720 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:44:54,715 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2020-08-19 11:45:01,760 INFO  [stdout] (default task-19) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
