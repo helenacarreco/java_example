@@ -1,0 +1,275 @@
+2021-11-10 10:06:12,791 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\matto\Desktop\Home Office\Treinamento_Desenv_06_04_2021\wildfly\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-11-10 10:06:12,806 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\matto\Desktop\Home Office\Treinamento_Desenv_06_04_2021\wildfly\standalone\deployments
+2021-11-10 10:06:12,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "webfakeapp.war" (runtime-name: "webfakeapp.war")
+2021-11-10 10:06:12,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "mysql-connector-java-8.0.17.jar" (runtime-name: "mysql-connector-java-8.0.17.jar")
+2021-11-10 10:06:12,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "webapp-0.0.1-SNAPSHOT.ear" (runtime-name: "webapp-0.0.1-SNAPSHOT.ear")
+2021-11-10 10:06:12,822 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-11-10 10:06:12,922 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2021-11-10 10:06:13,060 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/WebApp]
+2021-11-10 10:06:13,060 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-webapp-0.0.1-SNAPSHOT.war")
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dto-0.0.1-SNAPSHOT.jar")
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-util-0.0.1-SNAPSHOT.jar")
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dao-0.0.1-SNAPSHOT.jar")
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-ejb-0.0.1-SNAPSHOT.jar")
+2021-11-10 10:06:13,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-vo-0.0.1-SNAPSHOT.jar")
+2021-11-10 10:06:13,918 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-11-10 10:06:14,076 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.2.3.Final (Apache CXF 3.2.5.jbossorg-1) 
+2021-11-10 10:06:14,524 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for WebAppPU
+2021-11-10 10:06:14,709 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2021-11-10 10:06:14,740 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment webapp-0.0.1-SNAPSHOT.ear
+2021-11-10 10:06:14,740 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-8.0.17.jar
+2021-11-10 10:06:14,778 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webfakeapp.war
+2021-11-10 10:06:15,009 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 6.0.13.Final
+2021-11-10 10:06:15,290 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment webapp-util-0.0.1-SNAPSHOT.jar
+2021-11-10 10:06:15,292 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment webapp-dao-0.0.1-SNAPSHOT.jar
+2021-11-10 10:06:15,292 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp-dto-0.0.1-SNAPSHOT.jar
+2021-11-10 10:06:15,292 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webapp-vo-0.0.1-SNAPSHOT.jar
+2021-11-10 10:06:15,332 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.1.Final
+2021-11-10 10:06:15,352 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment webapp-ejb-0.0.1-SNAPSHOT.jar
+2021-11-10 10:06:15,352 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment webapp-webapp-0.0.1-SNAPSHOT.war
+2021-11-10 10:06:15,360 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2021-11-10 10:06:15,362 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ConsultarMeusDadosEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb
+
+2021-11-10 10:06:15,393 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AltAnotacaoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:module/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:module/AltAnotacaoEjb
+
+2021-11-10 10:06:15,403 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LogonEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:module/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:module/LogonEjb
+
+2021-11-10 10:06:15,403 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ExecutarPingEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:module/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:module/ExecutarPingEjb
+
+2021-11-10 10:06:15,403 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AltEnderecoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:module/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:module/AltEnderecoEjb
+
+2021-11-10 10:06:15,403 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DeserializarEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:module/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:module/DeserializarEjb
+
+2021-11-10 10:06:15,443 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: WebAppPU
+	...]
+2021-11-10 10:06:15,562 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 3.0.5 (Final)
+2021-11-10 10:06:15,645 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 72) HHH000412: Hibernate Core {5.3.6.Final}
+2021-11-10 10:06:15,645 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 72) HHH000206: hibernate.properties not found
+2021-11-10 10:06:15,784 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-11-10 10:06:15,977 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 72) HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 10:06:16,369 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2021-11-10 10:06:16,853 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-10 10:06:16,894 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 72) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-11-10 10:06:17,056 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2021-11-10 10:06:17,110 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 106) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2021-11-10 10:06:17,179 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 106) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webfakeapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=LAPTOP-0NBFD433, jaeger.version=Java-0.30.6, ip=192.168.1.2}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2021-11-10 10:06:17,225 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0021: Registered web context: '/webfakeapp' for server 'default-server'
+2021-11-10 10:06:17,846 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table usuario if exists
+2021-11-10 10:06:17,858 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table usuario (id bigint generated by default as identity, anotacao varchar(200), email varchar(50) not null, endereco varchar(200), login varchar(30) not null, nome varchar(80) not null, senha varchar(64) not null, primary key (id))
+2021-11-10 10:06:17,868 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 72) HHH000476: Executing import script 'ScriptSourceInputFromUrl(vfs:/C:/Users/matto/Desktop/Home%20Office/Treinamento_Desenv_06_04_2021/wildfly/bin/content/webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar/META-INF/import.sql)'
+2021-11-10 10:06:17,888 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email, endereco) VALUES ('tiago', '14f8f4bb8c0e79a02670a5fea5682da717a5b3d3dc7b1706f7a4bab9afae18c2', 'Tiago Carvalho', 'tiago.carvalho@sicoob.com.br', 'Quadra 01, conjunto A, casa 12')
+2021-11-10 10:06:17,888 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('raphael', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Raphael Mattos', 'raphael.mattos@sicoob.com.br')
+2021-11-10 10:06:17,896 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('luan', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Luan Amor', 'luan.ritiery@sicoob.com.br')
+2021-11-10 10:06:18,244 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 92) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2021-11-10 10:06:18,244 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 92) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webapp-0.0.1-SNAPSHOT.ear!webapp-webapp-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=LAPTOP-0NBFD433, jaeger.version=Java-0.30.6, ip=192.168.1.2}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2021-11-10 10:06:18,244 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2021-11-10 10:06:18,260 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-0.0.1-SNAPSHOT.ear" (runtime-name : "webapp-0.0.1-SNAPSHOT.ear")
+2021-11-10 10:06:18,260 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webfakeapp.war" (runtime-name : "webfakeapp.war")
+2021-11-10 10:06:18,260 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-8.0.17.jar" (runtime-name : "mysql-connector-java-8.0.17.jar")
+2021-11-10 10:06:18,322 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-11-10 10:06:18,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-11-10 10:06:18,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-11-10 10:06:18,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) started in 10057ms - Started 1513 of 1693 services (353 services are lazy, passive or on-demand)
+2021-11-10 10:07:34,115 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 10:07:34,214 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2021-11-10 10:08:16,733 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:08:30,840 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:08:30,885 INFO  [stdout] (default task-2) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 10:08:33,903 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:08:37,216 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:08:59,514 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:09:37,078 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:09:37,082 INFO  [stdout] (default task-2) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 10:09:42,603 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:10:20,463 INFO  [stdout] (default task-7) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='tiago' or 1='1' and usuariovo0_.senha='45390fdb674edfdb50ae3329730b0670ac130d49cf72cf3c88258bd65837c2d7'
+2021-11-10 10:10:23,463 INFO  [stdout] (default task-7) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:10:38,015 INFO  [stdout] (default task-7) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:10:43,622 INFO  [stdout] (default task-7) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:11:16,975 INFO  [stdout] (default task-7) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:11:16,978 INFO  [stdout] (default task-7) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 10:11:28,699 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2021-11-10 10:11:38,158 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:11:56,775 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:12:34,464 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:12:34,467 INFO  [stdout] (default task-2) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 10:12:39,238 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:12:44,249 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 10:12:44,251 INFO  [stdout] (default task-2) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 11:44:56,399 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /Users/raphaelmattos/Desenv/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-11-10 11:44:56,433 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/raphaelmattos/Desenv/wildfly/standalone/deployments
+2021-11-10 11:44:56,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "webapp-0.0.1-SNAPSHOT.ear" (runtime-name: "webapp-0.0.1-SNAPSHOT.ear")
+2021-11-10 11:44:56,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "mysql-connector-java-8.0.17.jar" (runtime-name: "mysql-connector-java-8.0.17.jar")
+2021-11-10 11:44:56,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "webfakeapp.war" (runtime-name: "webfakeapp.war")
+2021-11-10 11:44:56,751 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-webapp-0.0.1-SNAPSHOT.war")
+2021-11-10 11:44:56,751 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dao-0.0.1-SNAPSHOT.jar")
+2021-11-10 11:44:56,751 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-vo-0.0.1-SNAPSHOT.jar")
+2021-11-10 11:44:56,751 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-util-0.0.1-SNAPSHOT.jar")
+2021-11-10 11:44:56,751 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-dto-0.0.1-SNAPSHOT.jar")
+2021-11-10 11:44:56,799 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp-ejb-0.0.1-SNAPSHOT.jar")
+2021-11-10 11:44:57,020 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-11-10 11:44:57,316 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.2.3.Final (Apache CXF 3.2.5.jbossorg-1) 
+2021-11-10 11:44:57,738 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for WebAppPU
+2021-11-10 11:44:58,017 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment webapp-0.0.1-SNAPSHOT.ear
+2021-11-10 11:44:58,052 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2021-11-10 11:44:58,115 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-8.0.17.jar
+2021-11-10 11:44:58,147 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webfakeapp.war
+2021-11-10 11:44:58,442 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 6.0.13.Final
+2021-11-10 11:44:58,757 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.1.Final
+2021-11-10 11:44:58,837 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2021-11-10 11:44:58,865 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: WebAppPU
+	...]
+2021-11-10 11:44:58,893 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment webapp-vo-0.0.1-SNAPSHOT.jar
+2021-11-10 11:44:58,894 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment webapp-dto-0.0.1-SNAPSHOT.jar
+2021-11-10 11:44:58,899 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp-util-0.0.1-SNAPSHOT.jar
+2021-11-10 11:44:58,908 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment webapp-dao-0.0.1-SNAPSHOT.jar
+2021-11-10 11:44:59,016 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp-webapp-0.0.1-SNAPSHOT.war
+2021-11-10 11:44:59,047 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp-ejb-0.0.1-SNAPSHOT.jar
+2021-11-10 11:44:59,080 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ConsultarMeusDadosEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ConsultarMeusDadosEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ConsultarMeusDadosEjb
+	java:module/ConsultarMeusDadosEjb
+
+2021-11-10 11:44:59,090 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'AltAnotacaoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:module/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltAnotacaoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltAnotacaoEjb
+	java:module/AltAnotacaoEjb
+
+2021-11-10 11:44:59,091 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'LogonEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:module/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.LogonEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/LogonEjb
+	java:module/LogonEjb
+
+2021-11-10 11:44:59,091 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ExecutarPingEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:module/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.ExecutarPingEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/ExecutarPingEjb
+	java:module/ExecutarPingEjb
+
+2021-11-10 11:44:59,091 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'AltEnderecoEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:module/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.AltEnderecoEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/AltEnderecoEjb
+	java:module/AltEnderecoEjb
+
+2021-11-10 11:44:59,091 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DeserializarEjb' in deployment unit 'subdeployment "webapp-ejb-0.0.1-SNAPSHOT.jar" of deployment "webapp-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:module/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	ejb:webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb!br.com.sicoob.gss.treinamento.seguranca.webapp.ejb.DeserializarEjb
+	java:global/webapp-0.0.1-SNAPSHOT/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:app/webapp-ejb-0.0.1-SNAPSHOT/DeserializarEjb
+	java:module/DeserializarEjb
+
+2021-11-10 11:44:59,119 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 72) HHH000412: Hibernate Core {5.3.6.Final}
+2021-11-10 11:44:59,123 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 72) HHH000206: hibernate.properties not found
+2021-11-10 11:44:59,286 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 3.0.5 (Final)
+2021-11-10 11:44:59,543 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-11-10 11:44:59,619 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 72) HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:45:00,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar#WebAppPU'
+2021-11-10 11:45:00,356 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-10 11:45:00,517 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 72) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-11-10 11:45:00,682 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2021-11-10 11:45:01,808 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table usuario if exists
+2021-11-10 11:45:01,824 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table usuario (id bigint generated by default as identity, anotacao varchar(200), email varchar(50) not null, endereco varchar(200), login varchar(30) not null, nome varchar(80) not null, senha varchar(64) not null, primary key (id))
+2021-11-10 11:45:01,845 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 72) HHH000476: Executing import script 'ScriptSourceInputFromUrl(vfs:/content/webapp-0.0.1-SNAPSHOT.ear/webapp-dao-0.0.1-SNAPSHOT.jar/META-INF/import.sql)'
+2021-11-10 11:45:01,889 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email, endereco) VALUES ('tiago', '14f8f4bb8c0e79a02670a5fea5682da717a5b3d3dc7b1706f7a4bab9afae18c2', 'Tiago Carvalho', 'tiago.carvalho@sicoob.com.br', 'Quadra 01, conjunto A, casa 12')
+2021-11-10 11:45:01,905 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('raphael', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Raphael Mattos', 'raphael.mattos@sicoob.com.br')
+2021-11-10 11:45:01,916 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: INSERT INTO usuario (login, senha, nome, email) VALUES ('luan', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Luan Amor', 'luan.ritiery@sicoob.com.br')
+2021-11-10 11:45:02,555 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 87) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2021-11-10 11:45:02,640 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 87) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webfakeapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=AGM-595374.local, jaeger.version=Java-0.30.6, ip=192.168.0.3}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2021-11-10 11:45:02,714 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: '/webfakeapp' for server 'default-server'
+2021-11-10 11:45:03,340 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 79) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2021-11-10 11:45:03,348 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 79) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=webapp-0.0.1-SNAPSHOT.ear!webapp-webapp-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=AGM-595374.local, jaeger.version=Java-0.30.6, ip=192.168.0.3}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2021-11-10 11:45:03,362 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2021-11-10 11:45:03,381 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-0.0.1-SNAPSHOT.ear" (runtime-name : "webapp-0.0.1-SNAPSHOT.ear")
+2021-11-10 11:45:03,381 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webfakeapp.war" (runtime-name : "webfakeapp.war")
+2021-11-10 11:45:03,382 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-8.0.17.jar" (runtime-name : "mysql-connector-java-8.0.17.jar")
+2021-11-10 11:45:03,455 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-11-10 11:45:03,461 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-11-10 11:45:03,462 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-11-10 11:45:03,462 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) started in 13981ms - Started 1513 of 1693 services (353 services are lazy, passive or on-demand)
+2021-11-10 11:46:09,389 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2021-11-10 11:46:09,461 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login=? and usuariovo0_.senha=?
+2021-11-10 11:47:41,691 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 11:47:56,864 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 11:48:05,589 INFO  [stdout] (default task-2) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 11:48:05,713 INFO  [stdout] (default task-2) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
+2021-11-10 11:49:03,924 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_, usuariovo0_.anotacao as anotacao2_0_, usuariovo0_.email as email3_0_, usuariovo0_.endereco as endereco4_0_, usuariovo0_.login as login5_0_, usuariovo0_.nome as nome6_0_, usuariovo0_.senha as senha7_0_ from usuario usuariovo0_ where usuariovo0_.login='tiago' or 1='1' and usuariovo0_.senha='332a35baaefc44113f815a691b78b5a28d94bb4074ff817e330138c3bd4cf5e2'
+2021-11-10 11:49:06,510 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 11:49:12,857 INFO  [stdout] (default task-8) Hibernate: select usuariovo0_.id as id1_0_0_, usuariovo0_.anotacao as anotacao2_0_0_, usuariovo0_.email as email3_0_0_, usuariovo0_.endereco as endereco4_0_0_, usuariovo0_.login as login5_0_0_, usuariovo0_.nome as nome6_0_0_, usuariovo0_.senha as senha7_0_0_ from usuario usuariovo0_ where usuariovo0_.id=?
+2021-11-10 11:49:12,866 INFO  [stdout] (default task-8) Hibernate: update usuario set anotacao=?, email=?, endereco=?, login=?, nome=?, senha=? where id=?
